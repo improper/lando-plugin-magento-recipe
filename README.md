@@ -7,7 +7,7 @@
 1. `yarn add lando-plugin-magento-recipe`
 2. Update project `.lando.yml`:
 
-```yaml
-plugins:
-  - lando-plugin-magento-recipe
-```
+    ```yaml
+    plugins:
+      - lando-plugin-magento-recipe
+    ```

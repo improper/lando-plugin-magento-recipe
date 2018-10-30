@@ -65,7 +65,7 @@ module.exports = lando => {
         const cgrInstall = helpers.getCgr('n98/magerun2', '*');
 
         // Add our cgr cmds
-        build.services.appserver.run_internal.push(cgrInstall);
+        build.services.appserver.install_dependencies_as_me_internal.push(cgrInstall);
 
         // Add artisan command
         build.tooling.magento = {
